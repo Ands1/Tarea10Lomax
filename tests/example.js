@@ -33,6 +33,8 @@ function demo(browserType = "chromium") {
         await page.waitForTimeout(200);
         page.fill(`#car_driverid`, '1')
         await page.waitForTimeout(200);
+        page.fill(`#car_code`, '1')
+        await page.waitForTimeout(200);
 
         page.click('input[name=commit]') //create car
         await page.waitForTimeout();
