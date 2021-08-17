@@ -27,9 +27,9 @@ function demo(browserType = "chromium") {
         await page.waitForTimeout(2000)
 
         //fill inputs
-        page.fill(`#car_model`, '2021')
+        page.fill(`#car_model` ,faker.datatype.number())
         await page.waitForTimeout(200);
-        page.fill(`#car_brand`, 'TESTING BRAND')
+        page.fill(`#car_brand` ,faker.vehicle.vehicle())
         await page.waitForTimeout(200);
         page.fill(`#car_driverid`, '1')
         await page.waitForTimeout(200);
