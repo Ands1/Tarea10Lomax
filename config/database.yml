@@ -1,0 +1,20 @@
+postgresql: &postgresql
+  adapter: postgresql
+  encoding: unicode
+  host : localhost
+  pool: 5
+  timeout: 5000
+  username: ands
+  password: 12345
+
+development:
+  <<: *postgresql
+  database: ands_dev
+
+test:
+  <<: *postgresql
+  database: ands_test
+
+production:
+  <<: *postgresql
+  database: ands_prod
