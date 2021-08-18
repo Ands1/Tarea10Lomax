@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "Cars", type: :request do
 
   before(:all) do
-    @cars = Car.create(model: 7, brand: 'ToyooootaSeed', driverid: 7, alias: '', code: 'cod1')
+    @cars = Car.create(model: Faker::Number.within(range: 1980..2022), brand: Faker::Vehicle.manufacture, driverid: Faker::IDNumber.valid, code: Faker::Code.nric)
   end
 
   describe "GET /index" do
