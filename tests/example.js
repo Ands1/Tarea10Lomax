@@ -22,7 +22,7 @@ function demo(browserType = "chromium") {
         await page.waitForLoadState()
         await page.waitForTimeout(2000)
 
-        for(var i=0; i <=4; i++) {
+        for(var i=1; i <=4; i++) {
 
         //go to car creation
         await page.click('text=New Car');
