@@ -51,8 +51,9 @@ function demo(browserType = "chromium") {
 
         //go to cars index
         await page.goto(config.url.base_path + '/cars')
+        
     }
-        i++;
+       
     })()
 }
 

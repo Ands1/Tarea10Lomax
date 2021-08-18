@@ -9057,3 +9057,262 @@ Processing by CarsController#index as HTML
 Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 2.0ms | Allocations: 5012)
 
 
+Started GET "/" for 127.0.0.1 at 2021-08-18 11:41:32 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 405)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 11:41:34 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.5ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 205.8ms | Allocations: 4843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 491.5ms | Allocations: 7825)
+Completed 200 OK in 493ms (Views: 492.3ms | ActiveRecord: 21.3ms | Allocations: 8229)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:37 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.6ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 4272)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:37 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.3ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 6328)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 6791)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 11:41:41 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2004", "brand"=>"Ferrari", "driverid"=>"1292", "alias"=>"Fatima", "code"=>"0xc5cdE"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (3.7ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2004], ["brand", "Ferrari"], ["driverid", 1292], ["alias", "Fatima"], ["created_at", "2021-08-18 17:41:41.082076"], ["updated_at", "2021-08-18 17:41:41.082076"], ["code", "0xc5cdE"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (31.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/72
+Completed 302 Found in 47ms (ActiveRecord: 37.1ms | Allocations: 2722)
+
+
+Started GET "/cars/72" for 127.0.0.1 at 2021-08-18 11:41:41 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[36mCar Load (2.0ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3086)
+Completed 200 OK in 22ms (Views: 11.3ms | ActiveRecord: 3.6ms | Allocations: 4418)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 11:41:43 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.8ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1687)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 4656)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 1.8ms | Allocations: 5114)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:43 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.3ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 4272)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:43 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 4272)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 11:41:46 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"1980", "brand"=>"BMW", "driverid"=>"1522", "alias"=>"Kacey", "code"=>"0x4C4d5"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (2.3ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 1980], ["brand", "BMW"], ["driverid", 1522], ["alias", "Kacey"], ["created_at", "2021-08-18 17:41:46.614691"], ["updated_at", "2021-08-18 17:41:46.614691"], ["code", "0x4C4d5"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (22.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/73
+Completed 302 Found in 41ms (ActiveRecord: 27.0ms | Allocations: 2721)
+
+
+Started GET "/cars/73" for 127.0.0.1 at 2021-08-18 11:41:46 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"73"}
+  [1m[36mCar Load (1.6ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 73], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3086)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 1.6ms | Allocations: 4249)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 11:41:48 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.4ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1801)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 4789)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 2.4ms | Allocations: 5248)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:48 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4279)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4746)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:48 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 8.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 4282)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 4746)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 11:41:52 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2016", "brand"=>"BMW", "driverid"=>"914", "alias"=>"Jazlyn", "code"=>"0xD0726"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (2.4ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2016], ["brand", "BMW"], ["driverid", 914], ["alias", "Jazlyn"], ["created_at", "2021-08-18 17:41:52.160284"], ["updated_at", "2021-08-18 17:41:52.160284"], ["code", "0xD0726"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (25.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/74
+Completed 302 Found in 43ms (ActiveRecord: 30.1ms | Allocations: 2723)
+
+
+Started GET "/cars/74" for 127.0.0.1 at 2021-08-18 11:41:52 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"74"}
+  [1m[36mCar Load (2.4ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3088)
+Completed 200 OK in 23ms (Views: 15.6ms | ActiveRecord: 2.4ms | Allocations: 4252)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 11:41:54 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.7ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 4880)
+Completed 200 OK in 25ms (Views: 20.4ms | ActiveRecord: 2.7ms | Allocations: 5338)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:54 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.2ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4272)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 11:41:54 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 8.3ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 4272)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 11:41:57 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2022", "brand"=>"Nissan", "driverid"=>"658", "alias"=>"Nikolas", "code"=>"0x229f0"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (1.8ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2022], ["brand", "Nissan"], ["driverid", 658], ["alias", "Nikolas"], ["created_at", "2021-08-18 17:41:57.647062"], ["updated_at", "2021-08-18 17:41:57.647062"], ["code", "0x229f0"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (52.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/75
+Completed 302 Found in 70ms (ActiveRecord: 58.3ms | Allocations: 2721)
+
+
+Started GET "/cars/75" for 127.0.0.1 at 2021-08-18 11:41:57 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"75"}
+  [1m[36mCar Load (2.0ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 75], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3086)
+Completed 200 OK in 22ms (Views: 15.7ms | ActiveRecord: 2.0ms | Allocations: 4249)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 11:41:59 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.8ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 2023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 4992)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 2.8ms | Allocations: 5450)
+
+
