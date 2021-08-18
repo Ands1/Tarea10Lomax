@@ -2650,3 +2650,1425 @@ Processing by CarsController#new as HTML
 Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 4735)
 
 
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:09:37 -0600
+  [1m[35m (192.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 135.5ms | Allocations: 494)
+Completed 200 OK in 733ms (Views: 262.8ms | ActiveRecord: 0.0ms | Allocations: 3637)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:09:46 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (142.8ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 255.2ms | Allocations: 8123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 438.8ms | Allocations: 14482)
+Completed 200 OK in 497ms (Views: 249.9ms | ActiveRecord: 213.3ms | Allocations: 16965)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:09:49 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 3422.4ms | Allocations: 341615)
+  Rendered cars/new.html.erb within layouts/application (Duration: 3441.7ms | Allocations: 342026)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3451.1ms | Allocations: 345041)
+Completed 200 OK in 3458ms (Views: 3453.9ms | ActiveRecord: 0.0ms | Allocations: 345851)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:09:52 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.8ms | Allocations: 1218)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 4295)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 4843)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:10:28 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.7ms | Allocations: 268)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 1100)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:10:31 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1939)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 5059)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 2.1ms | Allocations: 5525)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:10:33 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.9ms | Allocations: 1268)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4342)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 4823)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:10:34 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 4272)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-17 19:10:37 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2000", "brand"=>"Toyota", "driverid"=>"1", "alias"=>"", "code"=>"1"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (172.9ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", ""], ["created_at", "2021-08-18 01:10:37.113424"], ["updated_at", "2021-08-18 01:10:37.113424"], ["code", "1"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (79.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/29
+Completed 302 Found in 274ms (ActiveRecord: 254.5ms | Allocations: 3670)
+
+
+Started GET "/cars/29" for 127.0.0.1 at 2021-08-17 19:10:37 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 411)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3477)
+Completed 200 OK in 40ms (Views: 11.1ms | ActiveRecord: 3.6ms | Allocations: 8321)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:10:39 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1920)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 4890)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 2.2ms | Allocations: 5382)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:15:38 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 52)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 418)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:15:40 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (4.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1909)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 4908)
+Completed 200 OK in 30ms (Views: 24.3ms | ActiveRecord: 4.2ms | Allocations: 5326)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:15:42 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.8ms | Allocations: 1268)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 4342)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 4814)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:15:42 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 11.8ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 4272)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:21:16 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:21:18 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1899)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 4881)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 1.9ms | Allocations: 5287)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:21:20 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 8.7ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 4272)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:21:20 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 10.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 14.6ms | Allocations: 2470)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 6329)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 6792)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-17 19:21:24 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2000", "brand"=>"Toyota", "driverid"=>"1", "alias"=>"", "code"=>"1"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (2.6ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", ""], ["created_at", "2021-08-18 01:21:24.143932"], ["updated_at", "2021-08-18 01:21:24.143932"], ["code", "1"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (111.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/30
+Completed 302 Found in 135ms (ActiveRecord: 116.1ms | Allocations: 2841)
+
+
+Started GET "/cars/30" for 127.0.0.1 at 2021-08-17 19:21:24 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3086)
+Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 1.9ms | Allocations: 4250)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:21:26 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.0ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 2011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 4980)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 2.0ms | Allocations: 5438)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:25:02 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:25:05 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.8ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4993)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 1.8ms | Allocations: 5399)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:25:07 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 4272)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:25:07 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 9.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 4272)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:26:33 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:26:36 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.7ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2011)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ands/Documentos/Ruby/Tarea10Lomax/public/packs
+[Webpacker] warning ../../../package.json: No license field
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 3736ms
+Built at: 08/17/2021 7:26:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8396.5ms | Allocations: 6343)
+Completed 200 OK in 8398ms (Views: 8394.9ms | ActiveRecord: 2.7ms | Allocations: 6749)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:26:46 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 4272)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:26:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 16.4ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 25.9ms | Allocations: 2275)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 5232)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms | Allocations: 5695)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-17 19:26:50 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"2000", "brand"=>"Bentley", "driverid"=>"1", "alias"=>"", "code"=>"1"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (2.0ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Bentley"], ["driverid", 1], ["alias", ""], ["created_at", "2021-08-18 01:26:50.101102"], ["updated_at", "2021-08-18 01:26:50.101102"], ["code", "1"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (27.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/31
+Completed 302 Found in 45ms (ActiveRecord: 31.2ms | Allocations: 2732)
+
+
+Started GET "/cars/31" for 127.0.0.1 at 2021-08-17 19:26:50 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mCar Load (1.6ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3086)
+Completed 200 OK in 19ms (Views: 12.7ms | ActiveRecord: 1.6ms | Allocations: 4249)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:26:52 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 5093)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 1.9ms | Allocations: 5551)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:29:51 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:29:53 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 5106)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 2.2ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:29:56 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 4272)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:29:56 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.7ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 4272)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-17 19:30:35 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-17 19:30:38 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 2126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 5118)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 2.2ms | Allocations: 5525)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:30:40 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.3ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 4272)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-17 19:30:40 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 4272)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:41:12 -0600
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.8ms | Allocations: 494)
+Completed 200 OK in 62ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:41:16 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (16.0ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 44.9ms | Allocations: 7951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 127.9ms | Allocations: 14310)
+Completed 200 OK in 165ms (Views: 136.7ms | ActiveRecord: 24.8ms | Allocations: 16812)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:41:18 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 568.6ms | Allocations: 341724)
+  Rendered cars/new.html.erb within layouts/application (Duration: 570.5ms | Allocations: 342135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 579.4ms | Allocations: 345156)
+Completed 200 OK in 583ms (Views: 581.1ms | ActiveRecord: 0.0ms | Allocations: 345982)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:41:19 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 6.2ms | Allocations: 1218)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 4294)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4829)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:41:41 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.9ms | Allocations: 268)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 1098)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:41:44 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2276)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 5394)
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 1.9ms | Allocations: 5860)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:41:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.0ms | Allocations: 1268)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 4945)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 5426)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:41:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4272)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:44:51 -0600
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.3ms | Allocations: 494)
+Completed 200 OK in 30ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:44:53 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 33.1ms | Allocations: 7956)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ands/Documentos/Ruby/Tarea10Lomax/public/packs
+[Webpacker] warning ../../../package.json: No license field
+
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 1306ms
+Built at: 08/18/2021 8:44:58 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4922.0ms | Allocations: 15655)
+Completed 200 OK in 4929ms (Views: 4913.5ms | ActiveRecord: 11.5ms | Allocations: 17722)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:45:00 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 449.5ms | Allocations: 341728)
+  Rendered cars/new.html.erb within layouts/application (Duration: 451.5ms | Allocations: 342139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 461.7ms | Allocations: 345158)
+Completed 200 OK in 465ms (Views: 463.0ms | ActiveRecord: 0.0ms | Allocations: 345968)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:45:01 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.2ms | Allocations: 1218)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4295)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 4843)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:45:43 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.5ms | Allocations: 268)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 1098)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:45:45 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.3ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 2276)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 5394)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 2.3ms | Allocations: 5859)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:45:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.2ms | Allocations: 1268)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 4342)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 4823)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:45:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 3.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1410)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4367)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 4830)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:54:17 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 411)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:54:19 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.6ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 290.0ms | Allocations: 5557)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 297.9ms | Allocations: 8539)
+Completed 200 OK in 300ms (Views: 299.2ms | ActiveRecord: 16.6ms | Allocations: 8943)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:54:22 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 30.0ms | Allocations: 1203)
+  Rendered cars/new.html.erb within layouts/application (Duration: 32.2ms | Allocations: 1775)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 4889)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 5365)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:54:22 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4286)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4749)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 08:57:32 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 08:57:35 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 5108)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 1.9ms | Allocations: 5514)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:57:37 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.8ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 4867)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 5333)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 08:57:37 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 3.7ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4272)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:14:22 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.8ms | Allocations: 405)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:14:25 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.7ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 384.3ms | Allocations: 5416)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 670.4ms | Allocations: 8398)
+Completed 200 OK in 673ms (Views: 671.8ms | ActiveRecord: 116.8ms | Allocations: 8802)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:14:28 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.6ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 4272)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:14:28 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 2.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4367)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4830)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:14:49 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:14:51 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.7ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5107)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 1.7ms | Allocations: 5513)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:14:53 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 3.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4272)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:14:53 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.3ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 4272)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:15:07 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:15:10 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 5106)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 2.1ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:15:12 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 6.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 21.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.5ms | Allocations: 4272)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:15:12 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.4ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 4353)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4827)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:16:46 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:16:48 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.4ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5106)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 2.4ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:16:51 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 4272)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 4749)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:16:51 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 8.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1364)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4321)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 4784)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:19:05 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:19:07 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.6ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 5581)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 2.6ms | Allocations: 5987)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:19:10 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.9ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 4272)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:19:10 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 4863)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 5326)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:19:33 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:19:35 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.4ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 5122)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 2.4ms | Allocations: 5528)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:19:38 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 4272)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:19:38 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.8ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1410)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 4367)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 4830)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:19:59 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:20:01 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.3ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 5106)
+Completed 200 OK in 19ms (Views: 15.8ms | ActiveRecord: 2.3ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:03 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 6.2ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4272)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:03 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3283)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 6398)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 6861)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:20:20 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:20:22 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.6ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 5106)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 1.6ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:24 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4272)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:24 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 4272)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:20:42 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:20:44 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5106)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 1.9ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:46 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.0ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 4272)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 5343)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:20:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.4ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4272)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:21:17 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:21:19 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 5106)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 2.1ms | Allocations: 5512)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:21:22 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 4754)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 5220)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:21:22 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.7ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4272)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 09:21:26 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"0", "brand"=>"Chevrolet", "driverid"=>"0", "alias"=>"", "code"=>"0x8"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (53.8ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 0], ["brand", "Chevrolet"], ["driverid", 0], ["alias", ""], ["created_at", "2021-08-18 15:21:26.040051"], ["updated_at", "2021-08-18 15:21:26.040051"], ["code", "0x8"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (85.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/32
+Completed 302 Found in 154ms (ActiveRecord: 141.7ms | Allocations: 3658)
+
+
+Started GET "/cars/32" for 127.0.0.1 at 2021-08-18 09:21:26 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mCar Load (1.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 416)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3482)
+Completed 200 OK in 177ms (Views: 9.2ms | ActiveRecord: 2.4ms | Allocations: 8331)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:21:27 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 2267)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 5236)
+Completed 200 OK in 29ms (Views: 25.3ms | ActiveRecord: 2.2ms | Allocations: 5728)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:22:18 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 52)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 416)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:22:20 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 5225)
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 2.2ms | Allocations: 5631)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:22:23 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.1ms | Allocations: 1268)
+  Rendered cars/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4342)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 4814)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:22:23 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 4272)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 09:22:26 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"03", "brand"=>"Land Rover", "driverid"=>"0", "alias"=>"Marcus", "code"=>"0xB"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (4.0ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 3], ["brand", "Land Rover"], ["driverid", 0], ["alias", "Marcus"], ["created_at", "2021-08-18 15:22:26.317026"], ["updated_at", "2021-08-18 15:22:26.317026"], ["code", "0xB"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (140.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/33
+Completed 302 Found in 159ms (ActiveRecord: 146.1ms | Allocations: 2838)
+
+
+Started GET "/cars/33" for 127.0.0.1 at 2021-08-18 09:22:26 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCar Load (2.8ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 3087)
+Completed 200 OK in 25ms (Views: 17.1ms | ActiveRecord: 2.8ms | Allocations: 4251)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:22:28 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (1.5ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2351)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 5320)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 1.5ms | Allocations: 5778)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:22:42 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:22:44 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.5ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 2351)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 5333)
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 2.5ms | Allocations: 5739)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:22:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.7ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 4272)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:22:47 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 4.6ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 4272)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+Started POST "/cars" for 127.0.0.1 at 2021-08-18 09:22:50 -0600
+Processing by CarsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "car"=>{"model"=>"05", "brand"=>"Maserati", "driverid"=>"0", "alias"=>"Gordon", "code"=>"0x7"}, "commit"=>"Create Car"}
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mCar Create (2.0ms)[0m  [1m[32mINSERT INTO "cars" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 5], ["brand", "Maserati"], ["driverid", 0], ["alias", "Gordon"], ["created_at", "2021-08-18 15:22:50.917238"], ["updated_at", "2021-08-18 15:22:50.917238"], ["code", "0x7"]]
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (68.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/cars_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/cars/34
+Completed 302 Found in 86ms (ActiveRecord: 72.1ms | Allocations: 2721)
+
+
+Started GET "/cars/34" for 127.0.0.1 at 2021-08-18 09:22:51 -0600
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mCar Load (1.9ms)[0m  [1m[34mSELECT "cars".* FROM "cars" WHERE "cars"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:62:in `set_car'
+  Rendering layout layouts/application.html.erb
+  Rendering cars/show.html.erb within layouts/application
+  Rendered cars/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3090)
+Completed 200 OK in 18ms (Views: 11.6ms | ActiveRecord: 1.9ms | Allocations: 4253)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:22:52 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (2.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2464)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 5433)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 2.1ms | Allocations: 5891)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-18 09:23:53 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ands/.rbenv/versions/3.0.1/lib/ruby/gems/3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 49)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/cars" for 127.0.0.1 at 2021-08-18 09:23:56 -0600
+Processing by CarsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (3.4ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:18
+  Rendered cars/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 2464)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5446)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 3.4ms | Allocations: 5852)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:23:58 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 5.5ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 4751)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+Started GET "/cars/new" for 127.0.0.1 at 2021-08-18 09:23:58 -0600
+Processing by CarsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (Duration: 7.1ms | Allocations: 1202)
+  Rendered cars/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 4286)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 4844)
+
+

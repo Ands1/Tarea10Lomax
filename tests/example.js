@@ -1,5 +1,7 @@
 const playwright = require("playwright")
 const config = require("../config/development2.js")
+var faker = require('faker');
+
 
 function demo(browserType = "chromium") {
     (async () => {
@@ -27,13 +29,15 @@ function demo(browserType = "chromium") {
         await page.waitForTimeout(2000)
 
         //fill inputs
-        page.fill(`#car_model` ,faker.datatype.number())
+        page.fill(`#car_model` , faker.datatype.hexaDecimal())
         await page.waitForTimeout(200);
-        page.fill(`#car_brand` ,faker.vehicle.vehicle())
+        page.fill(`#car_brand`, faker.vehicle.manufacturer())
         await page.waitForTimeout(200);
-        page.fill(`#car_driverid`, '1')
+        page.fill(`#car_driverid`, faker.datatype.hexaDecimal())
         await page.waitForTimeout(200);
-        page.fill(`#car_code`, '1')
+        page.fill(`#car_code`, faker.datatype.hexaDecimal())
+        await page.waitForTimeout(200);
+        page.fill(`#car_alias`, faker.name.firstName())
         await page.waitForTimeout(200);
 
         page.click('input[name=commit]') //create car
